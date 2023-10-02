@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.debug .header_top {
+    background-color: #b6d7e4;
+}
+
+.debug .header_top>* {
+    background-color: #daa520;
+    border: 2px dashed black;
+    height: 32px;
+}
+
+.header_top {
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+}
+
+.header_top>* {
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    width: 160px;
+}
+
+#link {
+    width: 500px;
+    justify-content: center;
+}
+
+#login {
+    width: 160px;
+    justify-content: flex-end;
+}
