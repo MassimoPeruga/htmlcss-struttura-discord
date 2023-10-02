@@ -65,3 +65,55 @@
 .header_bottom>div {
     width: 630px;
 }
+
+/*MAIN*/
+/*DEBUG LAYOUT*/
+.layout2 {
+    background-color: #d3d3d3;
+}
+
+/*LAYOUT*/
+.layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+}
+
+/*DEBUG CONTAINER*/
+.debug .content {
+    background-color: #1e90ff;
+    height: 340px;
+    border: 2px dashed black;
+}
+
+.debug .menu {
+    background-color: #ffc0cb;
+    height: 340px;
+    border: 2px dashed black;
+}
+
+.debug .main_bottom {
+    background-color: #228b22;
+    border: 2px dashed black;
+    height: 620px;
+}
+
+/*CONTAINER*/
+.container {
+    width: 800PX;
+    display: flex;
+}
+
+.layout2 .container {
+    flex-direction: row-reverse;
+}
+
+.content {
+    flex-grow: 1
+}
+
+.menu {
+    width: 320px;
+    flex-shrink: 0
+}
